@@ -8,7 +8,7 @@
   padding: 2rem 0;
 }
 
-.brand img {
+.brand__logo img {
   width: clamp(60%, 80%, 100%);
 }
 
