@@ -1,0 +1,148 @@
+.forFans__item:first-child.container{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 9.5rem 0;
+}
+
+.forFans__item .title{
+    margin-top: 4rem;
+}
+
+.forFans__item:first-child .paragraph{
+    color: var(--dark);
+}
+
+.forFans__txt .fans{
+    display: inline-block;
+    font-size: 1.6rem;
+    padding: 1em 2.5em;
+    border-radius: 3rem;
+    font-family: 'DM Sans', sans-serif;
+    background-color: var(--brown);
+}
+
+.forFans__img{
+    max-width: 40rem;
+    align-self: center;
+}
+
+
+.forFans__item:last-child{
+    display: flex;
+    flex-direction: column;
+}
+.forFans__item--1{
+    background-color: var(--green);
+    background-image: url(../images/Noise.png);
+    padding: 12.5rem 0;
+}
+.forFans__item--1 .forFans__txt{
+    width: 80%;
+    margin: auto;
+    max-width: 47.5rem;
+    color: var(--white);
+}
+
+.fan__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--black);
+}
+
+.forFans__item--2{
+    background-image: url(../images/Noise.png);
+    background-color: rgba(248, 230, 206, 0.377);
+    
+}
+
+.forFans__message--container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 80%;
+    max-width: 47.5rem;
+    margin: auto;
+}
+
+.forFans__item--2 .forFans__message{
+    background-color: var(--white);
+    padding: .8rem 2rem;
+}
+
+.timestamp{
+    font-size: 1.2rem;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+.forFans__message:first-child{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.forFans__message:nth-child(2){
+    width: 75%;
+    align-self: flex-end;
+    border-radius: 1.5em 1.5em 0 1.5em;  
+}
+.forFans__message:nth-child(2) .timestamp{
+    display: block;
+    text-align: right;
+}
+.forFans__message:nth-child(3){
+    width: 45%;
+    border-radius: 1.5em 1.5em 1.5rem 0;
+
+}
+.forFans__message:nth-child(4){
+   width: 65%;
+   border-radius: 1.5em;
+   border-radius: 1.5em 1.5em 1.5rem 0;
+}
+
+.forFans__message:last-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    
+}
+.forFans__message .send{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    background-color: var(--gray);
+    border-radius: 1rem;
+    padding: .5rem 1.5rem;
+    
+} 
+
+
+
+@media screen and (min-width: 840px) {
+    .forFans__item:first-child.container{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .forFans__item:first-child.container .forFans__txt{
+        width: 40%;
+    }
+    .forFans__item:first-child.container .forFans__img{
+        width: 40%;
+    }
+
+    .forFans__item:last-child{
+        flex-direction: row;
+    }
+
+    .forFans__item--1, .forFans__item--2{
+        width: 50%;
+    }
+
+}

@@ -1,0 +1,102 @@
+.influencer__item:first-child.container{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-top: 9rem;
+}
+
+.influencer__item .title{
+    margin-top: 4rem;
+}
+
+.influencer__item:first-child .paragraph{
+    color: var(--dark);
+}
+
+.influencer__txt .influencer{
+    display: inline-block;
+    font-size: 1.6rem;
+    padding: 1em 2.5em;
+    border-radius: 3rem;
+    font-family: 'DM Sans', sans-serif;
+    background-color: var(--orange);
+}
+
+.influencer__img{
+    max-width: 40rem;
+    align-self: center;
+}
+
+
+.influencer__item:last-child{
+    display: flex;
+    flex-direction: column;
+}
+.influencer__item--1{
+    background-color: rgba(0, 0, 0, 0.897);
+    background-image: url(../images/Noise.png);
+    padding: 12.5rem 0;
+}
+.influencer__item--1 .influencer__txt{
+    width: 80%;
+    margin: auto;
+    max-width: 47.5rem;
+    color: var(--white);
+}
+.influencer__item--1 .influencer__txt .paragraph{
+    opacity: .7;
+}
+
+.influencer__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--black);
+}
+
+
+.influencer__item--2{
+    background-image: url(../images/Noise.png);
+    background-color: rgba(0, 0, 0, 0.87);
+}
+
+.influencer__message--container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 80%;
+    max-width: 47.5rem;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 839px){
+    .influencer__img{
+        margin-left: 0;
+    }
+    .influencer__item--2{
+        padding-bottom: 8rem;
+    }
+}
+
+@media screen and (min-width:840px) {
+    .influencer__item:first-child.container{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .influencer__item:first-child.container .influencer__txt{
+        width: 40%;
+    }
+    .influencer__item:first-child.container .influencer__img{
+        width: 40%;
+    }
+
+    .influencer__item:last-child{
+        flex-direction: row-reverse;
+    }
+
+    .influencer__item--1, .influencer__item--2{
+        width: 50%;
+    }
+}

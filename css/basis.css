@@ -1,0 +1,35 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, h6, ul, li{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 1540px;
+    margin: auto;
+    width: 80%;
+}
+
+ul, li{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.title, .paragraph{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.title{
+    font-size: clamp(3rem, 2.57vw, 7.2rem);
+}
+
+.paragraph{
+    font-size: clamp(1.6rem, 2vw, 1.8rem);
+    line-height: 150%;
+}
