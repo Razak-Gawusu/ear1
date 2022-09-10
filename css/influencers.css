@@ -23,8 +23,11 @@
 }
 
 .influencer__img{
-    max-width: 40rem;
-    align-self: center;
+    text-align: center;
+}
+
+.influencer__img img{
+    margin-bottom: -.2rem;
 }
 
 

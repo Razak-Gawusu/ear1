@@ -37,8 +37,7 @@
 }
 
 .form__group input{
-    padding: 1rem;
-    height: 5.6rem;
+    padding: 1rem 1.5rem;
     font-size: clamp(1.6rem, 2vw, 2rem);
 }
 .form__group input[type='text']{
