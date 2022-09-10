@@ -42,7 +42,7 @@
 }
 .form__group input[type="text"] {
   flex-grow: 4;
-  border-radius: 0.5rem 0 0 0.5rem;
+  border-radius: 0.5px 0 0 0.5px;
   border: solid 1px rgba(0, 0, 0, 0.253);
 }
 .form__group input[type="text"]:focus {
@@ -51,9 +51,9 @@
 .form__group input[type="submit"] {
   background-color: var(--black);
   color: var(--white);
-  border-radius: 0 0.5rem 0.5rem 0;
+  border-radius: 0 5px 5px 0;
   flex-grow: 1;
-  margin-left: -.2rem;
+  margin-left: -0.2rem;
 }
 
 .footer__nav {
