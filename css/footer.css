@@ -51,9 +51,7 @@
 .form__group input[type="submit"] {
   background-color: var(--black);
   color: var(--white);
-  border-radius: 0 5px 5px 0;
   flex-grow: 1;
-  margin-left: -0.2rem;
 }
 
 .footer__nav {
