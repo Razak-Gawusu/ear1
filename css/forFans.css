@@ -114,6 +114,9 @@
   border-radius: 1rem;
   padding: 0.5rem 1.5rem;
 }
+.forFans__message:last-child img{
+  width: 2rem;
+}
 
 @media screen and (min-width: 840px) {
   .forFans__item:first-child.container {
@@ -130,6 +133,10 @@
 
   .forFans__item:last-child {
     flex-direction: row;
+  }
+
+  .forFans__message:last-child img{
+    width: 3rem;
   }
 
   .forFans__item--1,
