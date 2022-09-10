@@ -77,7 +77,7 @@
     background-image: url(../images/Noise.png);
     padding: 2rem;
     position: absolute;
-
+    left: 7rem;
     top: 5rem;
     z-index: 1;
     width: 70%;
