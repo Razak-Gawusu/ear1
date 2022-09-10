@@ -1,20 +1,19 @@
 #about{
     background-color: rgba(128, 128, 128, 0.048);
     background-image: url(../images/Noise.png);
-    padding: 14rem 0;
+    padding: 15rem 0;
     position: relative;
     z-index: -1;
 }
-
-#about .container{
-    width: 80%;
-}
-
 
 
 .about__txt--title{
     color: var(--green);
     font-weight: 500;
+}
+
+.about__txt--paragraph.paragraph{
+    opacity: .7;
 }
 
 .about__cirle--1, .about__cirle--2{
@@ -30,7 +29,7 @@
 .about__cirle--2{
     width: 20%;
     top: 0;
-    right: 0;
+    right: 5rem;
     z-index: -1;
 }
 
@@ -40,8 +39,8 @@
     }
     
 }
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 840px) {
     .about__txt{
-        width: 60%;
+        width: 50%;
     }
 }

@@ -36,9 +36,8 @@
   padding: 12.5rem 0;
 }
 .forFans__item--1 .forFans__txt {
-  width: 80%;
+  width: 90%;
   margin: auto;
-  max-width: 47.5rem;
   color: var(--white);
 }
 
@@ -58,8 +57,7 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  width: 80%;
-  max-width: 47.5rem;
+  width: 90%;
   margin: auto;
 }
 
@@ -129,6 +127,16 @@
   }
   .forFans__item:first-child.container .forFans__img {
     width: 40%;
+  }
+
+  .forFans__item--1 .forFans__txt {
+    width: 80%;
+    max-width: 47.5rem;
+  }
+
+  .forFans__message--container {
+    width: 80%;
+    max-width: 47.5rem;
   }
 
   .forFans__item:last-child {
