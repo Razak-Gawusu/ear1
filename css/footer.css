@@ -41,7 +41,7 @@
   font-size: clamp(1.6rem, 2vw, 2rem);
 }
 .form__group input[type="text"] {
-  flex-grow: 4;
+  width: 80%;
   border-radius: 0.5px 0 0 0.5px;
   border: solid 1px rgba(0, 0, 0, 0.253);
 }
@@ -51,7 +51,7 @@
 .form__group input[type="submit"] {
   background-color: var(--black);
   color: var(--white);
-  flex-grow: 1;
+  width: 20%;
 }
 
 .footer__nav {
